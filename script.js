@@ -21,6 +21,7 @@ $(function() {
         setTimeout(function() {
             $('.email').val('');
             $('.error').addClass('hidden');
-        }, 500);
+            $(this).removeClass('valid');
+        }.bind(this), 500);
     })
 });

@@ -233,14 +233,17 @@ form {
 }
 
 .error {
-    padding: 0.5rem 0;
+    margin: 0.5rem 0;
     display: block;
     color: $pink;
     border: 1px solid rgba(0,0,0,0);
     opacity: 1;
+    height: 1rem;
+    max-height: 1rem;
+    overflow: hidden;
     @include transition(0.2s);
     &.hidden {
-        opacity: 0;
+        max-height: 0;
     }
 }
 
