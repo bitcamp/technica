@@ -48,7 +48,7 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", sans-serif;
+  font-family: "DINPro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 16px;
   color: white;
   background-color: #222222;
@@ -106,7 +106,7 @@ img {
   width: 90%;
   max-width: 30rem; }
   .hero-content .logo {
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
 
 form {
   -webkit-animation-duration: 1s;
@@ -129,16 +129,16 @@ form {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
     form input[type="email"]::-webkit-input-placeholder, form input[type="text"]::-webkit-input-placeholder {
-      font-family: "Helvetica", sans-serif;
+      font-family: "DINPro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
       color: #d5d5d5; }
     form input[type="email"]:-moz-placeholder, form input[type="text"]:-moz-placeholder {
-      font-family: "Helvetica", sans-serif;
+      font-family: "DINPro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
       color: #d5d5d5; }
     form input[type="email"]::-moz-placeholder, form input[type="text"]::-moz-placeholder {
-      font-family: "Helvetica", sans-serif;
+      font-family: "DINPro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
       color: #d5d5d5; }
     form input[type="email"]:-ms-input-placeholder, form input[type="text"]:-ms-input-placeholder {
-      font-family: "Helvetica", sans-serif;
+      font-family: "DINPro", "Helvetica Neue", "Helvetica", Arial, sans-serif;
       color: #d5d5d5; }
     form input[type="email"]:focus, form input[type="text"]:focus {
       border: 1px solid white;

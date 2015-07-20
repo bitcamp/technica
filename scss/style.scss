@@ -8,7 +8,7 @@ $blue: #00ffff;
 $pink: #ff7bac;
 
 /* Typography */
-$sans: 'Helvetica', sans-serif;
+$sans: 'DINPro', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
 
 /* Mixins */
 @mixin clearfix {
@@ -161,7 +161,7 @@ img {
     max-width: 30rem;
 
     .logo {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 }
 
